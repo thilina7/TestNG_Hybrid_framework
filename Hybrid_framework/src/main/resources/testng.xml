@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Suite1" verbose="1">
+<listeners>
+		<listener class-name="com.qa.reportlistner.ExtentReporterNG" />
+	</listeners>
+<!--
+  <test name="Hybrid_framework"   >
+  
+  <packages>
+     <package name="com.vocalize.testcases.*" /> 
+   </packages>
+     -->
+     <test name="Hybrid_framework"   >
+  <classes>
+        <class
+            name="com.vocalize.testcases.signup" />
+          
+    </classes>
+   
+   
+   
+   
+ </test>
+</suite>

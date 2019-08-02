@@ -1,0 +1,63 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LoginToiAdmin.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Login to iAdmin",
+  "description": "",
+  "id": "login-to-iadmin",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "login to iAdmin",
+  "description": "",
+  "id": "login-to-iadmin;login-to-iadmin",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "I should load the URL to Browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I should see the iAdmin page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "I fill the user name and password fileds",
+  "rows": [
+    {
+      "cells": [
+        "user_id",
+        "madhuka"
+      ],
+      "line": 7
+    }
+  ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login_iAdmin.i_should_load_the_URL_to_Browser()"
+});
+formatter.result({
+  "duration": 41499183700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Login_iAdmin.i_should_see_the_iAdmin_page()"
+});
+formatter.result({
+  "duration": 76600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Login_iAdmin.i_fill_the_user_name_and_password_fileds(DataTable)"
+});
+formatter.result({
+  "duration": 84798400,
+  "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute \u0027evaluate\u0027 on \u0027Document\u0027: The string \u0027\u0027 is not a valid XPath expression.\n  (Session info: chrome\u003d73.0.3683.86)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 69 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027THILINA-MOBILE\u0027, ip: \u0027192.168.1.136\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir\u003dC:\\Users\\THILIN~1\\AppData\\Local\\Temp\\scoped_dir10388_27901}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d73.0.3683.86, platform\u003dXP, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dfalse, acceptInsecureCerts\u003dfalse, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: 65b81ae066209fb69db35c052d0a7285\n*** Element info: {Using\u003dxpath, value\u003d}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat Automation.com.Eight25.product.Login_iAdmin.i_fill_the_user_name_and_password_fileds(Login_iAdmin.java:47)\r\n\tat ✽.And I fill the user name and password fileds(LoginToiAdmin.feature:6)\r\n",
+  "status": "failed"
+});
+});

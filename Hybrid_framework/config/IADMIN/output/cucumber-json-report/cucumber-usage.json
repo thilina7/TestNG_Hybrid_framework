@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^I should load the URL to Browser$",
+    "steps": [
+      {
+        "name": "I should load the URL to Browser",
+        "aggregatedDurations": {
+          "average": 41.4991837,
+          "median": 41.4991837
+        },
+        "durations": [
+          {
+            "duration": 41.4991837,
+            "location": "LoginToiAdmin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should see the iAdmin page$",
+    "steps": [
+      {
+        "name": "I should see the iAdmin page",
+        "aggregatedDurations": {
+          "average": 0.0000766,
+          "median": 0.0000766
+        },
+        "durations": [
+          {
+            "duration": 0.0000766,
+            "location": "LoginToiAdmin.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

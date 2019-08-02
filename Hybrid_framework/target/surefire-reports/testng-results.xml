@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="196183" started-at="2019-08-02T06:27:02Z" finished-at="2019-08-02T06:30:18Z">
+    <groups>
+    </groups>
+    <test name="Hybrid_framework" duration-ms="196183" started-at="2019-08-02T06:27:02Z" finished-at="2019-08-02T06:30:18Z">
+      <class name="com.vocalize.testcases.signup">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.vocalize.testcases.signup@2baa8d82]" name="Setup" is-config="true" duration-ms="57594" started-at="2019-08-02T06:27:04Z" finished-at="2019-08-02T06:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Verify_signup_with_invalid_Details(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vocalize.testcases.signup@2baa8d82]" name="Verify_signup_with_invalid_Details" duration-ms="37969" started-at="2019-08-02T06:28:02Z" description="verifying_the_invalid_signup_testcases" data-provider="getTestData" finished-at="2019-08-02T06:28:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jimmie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kimmel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E25 media]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567894E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user+2062@eight25media.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test1234%]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TEST1234%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_signup_with_invalid_Details -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.vocalize.testcases.signup@2baa8d82]" name="teardown" is-config="true" duration-ms="3383" started-at="2019-08-02T06:28:40Z" finished-at="2019-08-02T06:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.vocalize.testcases.signup@2baa8d82]" name="Setup" is-config="true" duration-ms="19686" started-at="2019-08-02T06:28:44Z" finished-at="2019-08-02T06:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Verify_signup_with_invalid_Details(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vocalize.testcases.signup@2baa8d82]" name="Verify_signup_with_invalid_Details" duration-ms="34649" started-at="2019-08-02T06:29:04Z" description="verifying_the_invalid_signup_testcases" data-provider="getTestData" finished-at="2019-08-02T06:29:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jimmie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kimmel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E25 media]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567895E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user+1996666668999@eight25media.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test1234%]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Test1234%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_signup_with_invalid_Details -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.vocalize.testcases.signup@2baa8d82]" name="teardown" is-config="true" duration-ms="2196" started-at="2019-08-02T06:29:39Z" finished-at="2019-08-02T06:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.vocalize.testcases.signup@2baa8d82]" name="Setup" is-config="true" duration-ms="15281" started-at="2019-08-02T06:29:41Z" finished-at="2019-08-02T06:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Verify_signup_with_invalid_Details(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.vocalize.testcases.signup@2baa8d82]" name="Verify_signup_with_invalid_Details" duration-ms="19743" started-at="2019-08-02T06:29:56Z" description="verifying_the_invalid_signup_testcases" data-provider="getTestData" finished-at="2019-08-02T06:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jimmie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kimmel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E25 media]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.234567896E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[user+12345613@eight25media.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test1234%]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Test1234%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_signup_with_invalid_Details -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.vocalize.testcases.signup@2baa8d82]" name="teardown" is-config="true" duration-ms="2091" started-at="2019-08-02T06:30:16Z" finished-at="2019-08-02T06:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.vocalize.testcases.signup -->
+    </test> <!-- Hybrid_framework -->
+  </suite> <!-- Suite1 -->
+</testng-results>

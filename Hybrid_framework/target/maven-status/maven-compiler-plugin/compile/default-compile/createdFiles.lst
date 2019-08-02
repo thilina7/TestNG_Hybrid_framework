@@ -1,0 +1,10 @@
+com\excel\utill\Xls_Reader.class
+com\qa\base\Testbase.class
+com\vocalize\pages\login.class
+com\vocalize\util\TestUtill.class
+com\vocalize\pages\mycurrentbid.class
+com\vocalize\pages\my_wormholes.class
+com\vocalize\pages\Searchwormhole.class
+com\vocalize\pages\Signuppage.class
+com\vocalize\pages\Viewmyprofile.class
+com\qa\reportlistner\ExtentReporterNG.class
